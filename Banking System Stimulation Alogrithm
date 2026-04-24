@@ -1,0 +1,80 @@
+Step 1: Start
+Begin the program.
+
+Step 2: Initialize Data
+Create a data structure (like array / list / database) to store customer accounts.
+Each account should contain:
+Account Number
+Customer Name
+Balance
+PIN (optional for security)
+
+Step 3: Display Menu
+Show options to the user:
+1 → Create Account
+2 → Deposit Money
+3 → Withdraw Money
+4 → Check Balance
+5 → Transfer Money
+6 → Exit
+
+Step 4: Read User Choice
+Accept the user’s choice.
+
+Step 5: Perform Operations (Using Switch/If-Else)
+
+Case 1: Create Account
+Input customer details (name, initial deposit, PIN).
+Generate a unique account number.
+Store details in the system.
+Display success message.
+
+Case 2: Deposit Money
+Input account number.
+Search account.
+If found:
+Input deposit amount.
+Add to balance.
+Display updated balance.
+Else:
+Show "Account not found".
+
+Case 3: Withdraw Money
+Input account number.
+Search account.
+If found:
+Input withdrawal amount.
+Check if balance ≥ amount:
+Yes → deduct amount
+No → display "Insufficient balance"
+Else:
+Show error message.
+
+Case 4: Check Balance
+Input account number.
+Search account.
+If found:
+Display balance.
+Else:
+Show error.
+
+Case 5: Transfer Money
+Input sender account number.
+Input receiver account number.
+Validate both accounts.
+Input transfer amount.
+If sender has enough balance:
+Deduct from sender
+Add to receiver
+Show success message
+Else:
+Show "Insufficient balance".
+
+Case 6: Exit
+Terminate the program.
+
+Step 6: Repeat
+Return to menu until user selects Exit.
+
+Step 7: Stop
+End program.
